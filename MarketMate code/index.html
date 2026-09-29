@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MarketMate — Marketing To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<nav class="side" aria-label="Menu utama">
+  <div class="logo">Market<span>Mate</span></div>
+  <button class="nav" data-v="home">Ringkasan</button>
+  <button class="nav" data-v="tasks">Tugas <small id="cTasks">0</small></button>
+  <button class="nav" data-v="camp">Campaign <small id="cCamp">0</small></button>
+  <button class="nav" data-v="cal">Jadwal konten <small id="cCal">0</small></button>
+  <div class="grow"></div>
+  <button class="nav" id="theme">Ganti tema</button>
+</nav>
+<main class="main" id="main"></main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
